@@ -22,8 +22,7 @@ COMMON_DEPEND=">=net-im/pidgin-2.10[gstreamer]
 	=net-im/liblwqq-${PV}
 	x11-plugins/purple-plugin_pack"
 
-DEPEND="${COMMON_DEPEND}
-	virtual/pkgconfig"
+DEPEND="${COMMON_DEPEND}"
 
 RDEPEND="${COMMON_DEPEND}"
 
